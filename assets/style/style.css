@@ -7,3 +7,14 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+header {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
