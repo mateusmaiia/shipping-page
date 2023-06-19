@@ -77,3 +77,25 @@ a {
   font-size: 1.25rem;
   font-weight: black;
 }
+
+.section-hero--wrapper {
+  width: 100%;
+  height: calc(100vh - 75px);
+
+  display: flex;
+  justify-content: center;
+}
+
+.section-hero--container {
+  width: 100%;
+  max-width: 1200px;
+
+  display: flex;
+  align-items: center;
+}
+
+.section-hero--leftside .title {
+  font-size: 72px;
+  color: #713f12;
+  font-weight: 700;
+}
