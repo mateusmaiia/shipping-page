@@ -8,23 +8,23 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-header {
-  width: 100%;
-  padding-top: 50px;
-  display: flex;
-  justify-content: center;
-
-  padding-top: 34px;
-
-  /* background: red; */
-}
-
 a {
   text-decoration: none;
   color: black;
 }
 
-.menu-container {
+header {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  padding-top: 32px;
+
+  /* background: red; */
+}
+
+.header-container {
   width: 100%;
   max-width: 1200px;
 
@@ -34,35 +34,41 @@ a {
 }
 
 .logo {
-  font-size: 40px;
-  font-weight: black;
+  font-size: 36px;
+  font-weight: 900;
 }
 
 .logo span {
-  color: yellow;
+  color: #facc15;
 }
 
-.menu-nav--container {
+.header-nav--container {
   display: flex;
 
   align-items: center;
 
-  gap: 60px;
+  gap: 48px;
   font-size: 19px;
 }
 
-.login {
-  color: yellow;
+.header-nav--container a {
+  font-size: 16px;
+  color: #475569;
+  font-weight: 900;
 }
 
-.try-it {
-  background: yellow;
+.login {
+  color: #facc15;
+}
+
+.header-nav--container .try-it {
+  background: #facc15;
   color: #fff;
 
-  height: 2.75rem;
-  width: 10rem;
+  height: 2.5rem;
+  width: 7.75rem;
 
-  border-radius: 32px;
+  border-radius: 20px;
 
   display: flex;
   align-items: center;
